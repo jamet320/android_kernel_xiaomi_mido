@@ -709,3 +709,5 @@ CONFIG_CRYPTO_AES_ARM64_CE_BLK=y
 CONFIG_CRYPTO_AES_ARM64_NEON_BLK=y
 CONFIG_CRYPTO_CRC32_ARM64=y
 CONFIG_QMI_ENCDEC=y
+# Disable built-in system trusted keys while debugging to avoid early x509 parsing
+CONFIG_SYSTEM_TRUSTED_KEYS=""
